@@ -1,22 +1,24 @@
 <template>
-	<view>
-		这里是demo1页面
+	<view class="box-1">
+		css中绑定ref变量值
+	</view>
+	<view class="box">
+		<button type="default" @click="onClick">改变背景颜色</button>
 	</view>
 </template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
+<script setup lang="ts">
+	import {ref} from 'vue'
+	const color = ref<string>('red')
+	
+	const onClick = () => {
+		color.value  = `#${String(Math.random()).slice(2, 8)}`
 	}
 </script>
 
-<style>
+<style lang="scss" scoped>
+	.box-1{
+		background: v-bind(color);
+	}
 
 </style>
