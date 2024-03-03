@@ -10,7 +10,23 @@
 			"path" : "pages/demo1/demo1",
 			"style" : 
 			{
-				"navigationBarTitleText" : "这是demo1页面",
+				"navigationBarTitleText" : "demo1页面",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/demo2/demo2",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo2",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/demo3/demo3",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
 				"enablePullDownRefresh" : false
 			}
 		}
