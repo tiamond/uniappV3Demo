@@ -45,6 +45,31 @@
 				"navigationBarTitleText" : "demo5",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/demo6/demo6",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo6",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/demo7/demo7",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo7\r
+		\t",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/demo8/demo8",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo8",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {

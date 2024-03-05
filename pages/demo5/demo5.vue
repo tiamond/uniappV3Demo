@@ -31,11 +31,9 @@
 	
 	const showChild = () => {
 		child.value.onShow()
-		
 	}
 	const hideChild = () => {
 		child.value.onHide()
-		
 	}
 </script>
 

@@ -8,6 +8,9 @@
 		},
 		onHide: function() {
 			console.log('App Hide')
+		},
+		mounted() {
+			console.log('App mounted');
 		}
 	}
 </script>
