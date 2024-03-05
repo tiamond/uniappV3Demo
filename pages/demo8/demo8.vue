@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts" setup>
-	import { onBeforeMount, onMounted, ref } from 'vue'
-	import {onLoad,onShow,onReady} from '@dcloudio/uni-app'
+	// import { onBeforeMount, onMounted, ref } from 'vue'
+	// import {onLoad,onShow,onReady} from '@dcloudio/uni-app'
 	
 	onLoad(() => {
 		console.log('-----页面 onLoad');

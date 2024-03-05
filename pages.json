@@ -58,8 +58,7 @@
 			"path" : "pages/demo7/demo7",
 			"style" : 
 			{
-				"navigationBarTitleText" : "demo7\r
-		\t",
+				"navigationBarTitleText" : "demo7",
 				"enablePullDownRefresh" : false
 			}
 		},
@@ -69,6 +68,14 @@
 			{
 				"navigationBarTitleText" : "demo8",
 				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/pets/pets",
+			"style" : 
+			{
+				"navigationBarTitleText" : "萌宠大作战",
+				"enablePullDownRefresh" : true
 			}
 		}
 	],
